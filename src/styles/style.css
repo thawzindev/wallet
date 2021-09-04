@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	body {
+		width: 100% !important;
+	}
+
+    #userDetail {
+        margin: 21px 10px 0 13px;
+    }
+
+    #logo {
+        font-size: 40px !important;
+    }
+
+    #name {
+        font-size: 54px !important;
+    }
+
+    #wallet_amount {
+        font-size: 43px !important;
+    }
+
+    #user_level {
+        font-size: 37px !important;
+    }
+
+    #serviceCard {
+        margin-top: 5rem !important;
+    }
+
+    .mainServiceCard {
+        margin-top: 2rem !important;
+    }
+
+    .serviceImg {
+        width: 50%;
+    }
+
+    .serviceName {
+        font-size: 40px !important;
+    }
+
+    #promoSliders {
+        margin-top: 3rem !important;
+    }
+
+    .promoText {
+        font-size: 40px !important;
+    }
+
+    .navbar-fixed-bottom {
+        position: fixed;
+        bottom: 60px;
+        width: 100%;
+    }
+
+    .nav-logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .navbar-text {
+        font-size: 40px !important;
+    }
+
+    #navbar-container {
+       max-width: 100%;
+       height: 85px !important;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+	body {
+		width: 100% !important;
+	}
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	body {
+		width: 420px !important;
+		margin: 20px auto !important;
+	    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	}
+}
+
+body {
+	font-family: 'Cabin', sans-serif !important;
+}
+
+#noti {
+	/*margin-left: 115px;*/
+	margin-top: 15px;
+}
+
+.border-right {
+    border-right: 1px solid #ddd;
+}
+.borders {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    margin: -1px;
+}
+.border-left {
+    border-left: 1px solid #ddd;
+}
+
+span {
+	font-weight: 400;
+	font-size: 18px;
+}
+
+#slider {
+	margin-top: -17px;
+}
+
+.navbar-text {
+	color: #000000;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#qr-card {
+	padding: 55px 0 80px 0;
+}
+
+.button {
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none !important;
+	color: inherit !important;
+}
+
+a:hover {
+	color: inherit;
+}
+
+input {
+	outline: 0;
+  	border-width: 0 0 2px;
+  	border-color: green;
+  	width: 80%;
+}
+
+input:focus {
+  border-color: green
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.topup-amount {
+	font-size: 22px;
+	margin-left: -15px !important;
+	padding-right: 5px;
+}
+
+.topup-label {
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+#topup-spacing {
+	height: 12px;
+}
+
+#mpt-logo {
+	border: 3px solid skyblue;
+}
+
+#profile-spacing {
+	height: 120px;
+}
+
+#topup-success-spacing {
+    height: 30px;
+}
+
+/*progress bar*/
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: lightgrey
+}
+
+#progressbar .active {
+    color: #000000;
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 15px;
+    width: 22%;
+    float: left;
+    position: relative;
+    font-weight: 400
+}
+
+#progressbar #amount:before {
+    font-family: FontAwesome;
+    content: "\f0b0"
+}
+
+#progressbar #confirm:before {
+    font-family: FontAwesome;
+    content: "\f059"
+}
+
+#progressbar #passcode:before {
+    font-family: FontAwesome;
+    content: "\f13e"
+}
+
+#progressbar #success:before {
+    font-family: FontAwesome;
+    content: "\f00c"
+}
+
+
+#progressbar li:before {
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px
+}
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: #000000;
+}
+
+.progress {
+    height: 20px
+}
+
+.progress-bar {
+    background-color: #673AB7;
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
+
+.userInfo p {
+    margin : 0;
+    padding : 0;
+}
