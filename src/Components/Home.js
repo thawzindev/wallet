@@ -8,6 +8,7 @@ import Slider from './PromoSlider/Slider';
 import BottomNavbar from './NavBar/BottomNavbar';
 
 const Home = () => {
+
     return (
         <>
             <Container fluid>
