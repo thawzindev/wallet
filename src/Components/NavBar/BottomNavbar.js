@@ -3,16 +3,17 @@ import MyQr from "../../assets/icons/nav/qr.png";
 import ScanQr from "../../assets/icons/nav/scan_qr.png";
 import Agents from "../../assets/icons/nav/map.png";
 import Profile from "../../assets/icons/nav/profile.png";
+import { Link } from "react-router-dom";
 
 const BottomNavbar = () => {
     return ( 
         <nav className="navbar bg-light navbar-fixed-bottom mt-3">
             <div className="container mt-1" id="navbar-container" style={{height: "70px"}}>
                 <div className="navbar-header">
-                    <a className="navbar-brand" href="#">
+                    <Link className="navbar-brand" to="/">
                         <img src={Home} width="30" height="30" className="nav-logo d-inline-block align-top mx-auto d-block" />
                         <p className="navbar-text">Home</p>
-                    </a>
+                    </Link>
                 </div>
                 <div className="navbar-header">
                     <a className="navbar-brand" href="my_qr.html">

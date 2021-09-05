@@ -6,27 +6,27 @@
 	}
 
     #userDetail {
-        margin: 21px 10px 0 13px;
+        margin: -6px 10px 0 13px !important;
     }
 
     #logo {
-        font-size: 40px !important;
+        font-size: 30px !important;
     }
 
     #name {
-        font-size: 54px !important;
+        font-size: 27px !important;
     }
 
     #wallet_amount {
-        font-size: 43px !important;
+        font-size: 25px !important;
     }
 
     #user_level {
-        font-size: 37px !important;
+        font-size: 17px !important;
     }
 
     #serviceCard {
-        margin-top: 5rem !important;
+        margin-top: 1.2rem !important;
     }
 
     .mainServiceCard {
@@ -38,11 +38,11 @@
     }
 
     .serviceName {
-        font-size: 40px !important;
+        font-size: 20px !important;
     }
 
     #promoSliders {
-        margin-top: 3rem !important;
+        margin-top: 1.2rem !important;
     }
 
     .promoText {
@@ -51,17 +51,17 @@
 
     .navbar-fixed-bottom {
         position: fixed;
-        bottom: 60px;
+        bottom: -30px !important;
         width: 100%;
     }
 
     .nav-logo {
-        width: 70px;
-        height: 70px;
+        width: 40px;
+        height: 40px;
     }
 
     .navbar-text {
-        font-size: 40px !important;
+        font-size: 18px !important;
     }
 
     #navbar-container {
@@ -87,6 +87,10 @@
 		margin: 20px auto !important;
 	    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	}
+
+    #logo {
+        font-size: 30px !important;
+    }
 }
 
 body {
@@ -144,7 +148,7 @@ a:hover {
 
 input {
 	outline: 0;
-  	border-width: 0 0 2px;
+  	border-width: 0 0 3px;
   	border-color: green;
   	width: 80%;
 }
@@ -180,8 +184,8 @@ input[type=number] {
 	height: 12px;
 }
 
-#mpt-logo {
-	border: 3px solid skyblue;
+.selectedOperator {
+	border: 3px solid #b9b3b3;
 }
 
 #profile-spacing {
@@ -279,4 +283,13 @@ input[type=number] {
 .userInfo p {
     margin : 0;
     padding : 0;
+}
+
+.confirmValue {
+    font-weight: 500;
+    font-size: medium;
+}
+
+.confirmKey {
+    color: darkslategray;
 }

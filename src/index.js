@@ -5,9 +5,9 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { library } from '@fortawesome/fontawesome-svg-core' //allows later to just use icon name to render-them
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faCheckSquare, faCog, faBell, faEye } from '@fortawesome/free-solid-svg-icons'
+import { faCheckSquare, faCog, faBell, faEye, faMobile, faMobileAlt } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab, faCheckSquare, faCog, faBell, faEye)
+library.add(fab, faCheckSquare, faCog, faBell, faEye, faMobile, faMobileAlt)
 
 ReactDOM.render(
   <React.StrictMode>

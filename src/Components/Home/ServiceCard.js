@@ -9,19 +9,19 @@ const ServiceCard = () => {
 			<Card.Body>
                 <Row className="d-flex justify-content-center text-center">
 					
-					<Col sm={4} className="border-right">
+					<Col sm={4} xs={4} className="border-right">
 						<a href="sent.html">
 							<img className="serviceImg" src={send} alt="Send" width="40%;"/><br/>
 							<span className="serviceName">Send</span>
 						</a>
 					</Col>
-                    <Col sm={4} className="border-right">
+                    <Col sm={4} xs={4} className="border-right">
 						<a href="sent.html">
 							<img className="serviceImg" src={receive} alt="Receive" width="40%;"/><br/>
 							<span className="serviceName">Receive</span>
 						</a>
 					</Col>
-                    <Col sm={4} className="">
+                    <Col sm={4} xs={4} className="">
 						<a href="sent.html">
 							<img className="serviceImg" src={history} alt="History" width="40%;"/><br/>
 							<span className="serviceName">History</span>

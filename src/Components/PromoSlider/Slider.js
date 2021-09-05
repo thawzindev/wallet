@@ -8,15 +8,8 @@ const Slider = () => {
     return ( 
         <Card className="shadow mt-2" id="promoSliders">
 			<Card.Body>
-				<Card.Title className="card-title mb-3">
-					<Row className="justify-content-between">
-					    <Col sm={4}>
-					      <h6>Promotions</h6>
-					    </Col>
-					    <Col sm={4}>
-					      <h6 style={{textAlign: "right"}} className="text-info">See All</h6>
-					    </Col>
-					</Row>
+				<Card.Title className="mb-4" style={{marginTop : "-8px"}}>
+					<h6>Promotions</h6>
 				</Card.Title>
 
 				<div id="slider" className="carousel slide" data-ride="carousel">
