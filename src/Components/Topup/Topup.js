@@ -59,13 +59,13 @@ const Topup = () => {
 
                 <Row className="mt-4">
 
-                    <Col sm={2}>
+                    <Col sm={2} xs={2}>
                         <img src={mpt} className={operator === 'mpt' ? 'selectedOperator' : ''} width="40;" />
                     </Col>
-                    <Col sm={2}>
+                    <Col sm={2} xs={2}>
                         <img src={telenor} className={operator === 'telenor' ? 'selectedOperator' : ''} width="40;" />
                     </Col>
-                    <Col sm={2}>
+                    <Col sm={2} xs={2}>
                         <img src={ooredoo} className={operator === 'ooredoo' ? 'selectedOperator' : ''} width="40;" />
                     </Col>
                         
@@ -79,7 +79,7 @@ const Topup = () => {
 
                 <Row className="mt-2">
 
-                    <Col sm={4} className="mt-3">
+                    <Col sm={4} xs={4} className="mt-3">
                         <div className="form-check">
                         <input className="form-check-input topup-amount" type="radio" name="exampleRadios" value="1000" defaultChecked />
                         <label className="form-check-label topup-label">
@@ -88,7 +88,7 @@ const Topup = () => {
                         </div>
                     </Col>
 
-                    <Col sm={4} className="mt-3">
+                    <Col sm={4} xs={4} className="mt-3">
                         <div className="form-check">
                         <input className="form-check-input topup-amount" type="radio" name="exampleRadios" value="3000" />
                         <label className="form-check-label topup-label">
@@ -97,7 +97,7 @@ const Topup = () => {
                         </div>
                     </Col>
 
-                    <Col sm={4} className="mt-3">
+                    <Col sm={4} xs={4} className="mt-3">
                         <div className="form-check">
                         <input className="form-check-input topup-amount" type="radio" name="exampleRadios" value="5000" />
                         <label className="form-check-label topup-label" >
@@ -106,7 +106,7 @@ const Topup = () => {
                         </div>
                     </Col>
 
-                    <Col sm={4} className="mt-3">
+                    <Col sm={4} xs={4} className="mt-3">
                         <div className="form-check">
                         <input className="form-check-input topup-amount" type="radio" name="exampleRadios" value="10000" />
                         <label className="form-check-label topup-label" >
@@ -115,7 +115,7 @@ const Topup = () => {
                         </div>
                     </Col>
 
-                    <Col sm={4} className="mt-3">
+                    <Col sm={4} xs={4} className="mt-3">
                         <div className="form-check">
                         <input className="form-check-input topup-amount" type="radio" name="exampleRadios" value="20000" />
                         <label className="form-check-label topup-label" >
