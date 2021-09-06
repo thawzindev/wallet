@@ -16,16 +16,16 @@ const BottomNavbar = () => {
                     </Link>
                 </div>
                 <div className="navbar-header">
-                    <a className="navbar-brand" href="my_qr.html">
+                    <Link className="navbar-brand" to="/my-qr">
                         <img src={MyQr} width="30" height="30" className="nav-logo d-inline-block align-top mx-auto d-block" />
                         <p className="navbar-text">My QR</p>
-                    </a>
+                    </Link>
                 </div>
                 <div className="navbar-header">
-                    <a className="navbar-brand" href="#">
+                    <Link className="navbar-brand" to="/send">
                         <img src={ScanQr} width="30" height="30" className="nav-logo d-inline-block align-top mx-auto d-block" />
                         <p className="navbar-text">Scan QR</p>
-                    </a>
+                    </Link>
                 </div>
                 <div className="navbar-header">
                     <a className="navbar-brand" href="#">

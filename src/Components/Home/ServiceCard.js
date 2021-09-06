@@ -2,6 +2,7 @@ import { Card, Col, Row } from "react-bootstrap";
 import send from "../../assets/icons/send_money.png";
 import receive from "../../assets/icons/receive_money.png";
 import history from "../../assets/icons/history.png";
+import { Link } from "react-router-dom";
 
 const ServiceCard = () => {
     return ( 
@@ -10,16 +11,16 @@ const ServiceCard = () => {
                 <Row className="d-flex justify-content-center text-center">
 					
 					<Col sm={4} xs={4} className="border-right">
-						<a href="sent.html">
+						<Link to="/send">
 							<img className="serviceImg" src={send} alt="Send" width="40%;"/><br/>
 							<span className="serviceName">Send</span>
-						</a>
+						</Link>
 					</Col>
                     <Col sm={4} xs={4} className="border-right">
-						<a href="sent.html">
+						<Link to="/my-qr">
 							<img className="serviceImg" src={receive} alt="Receive" width="40%;"/><br/>
 							<span className="serviceName">Receive</span>
-						</a>
+						</Link>
 					</Col>
                     <Col sm={4} xs={4} className="">
 						<a href="sent.html">

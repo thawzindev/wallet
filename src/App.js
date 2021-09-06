@@ -4,6 +4,8 @@ import Topup from './Components/Topup/Topup';
 import ConfirmPage from './Components/Confirm/ConfirmPage';
 import Passcode from './Components/Passcode/Passcode';
 import SuccessPage from './Components/Success/SuccessPage';
+import QrPage from './Components/Qr/QrPage';
+import SendMoney from './Components/Send/SendMoney';
 import NotFound from './Components/NotFound';
 import './styles/style.css';
 import {
@@ -23,20 +25,23 @@ function App() {
 
         {/* topup routes */}
         <Route exact path="/topup" component={Topup} />
-        {/* end of topup routes */}
 
         {/* confirm route */}
         <Route exact path="/topup/confirm" component={ConfirmPage} />
-        {/* end of confirm routes */}
+
+        {/* Qr routes */}
+        <Route exact path="/my-qr" component={QrPage} />
+
+        {/* Send Money routes */}
+        <Route exact path="/send" component={SendMoney} />
 
 
         {/* passcode route */}
         <Route exact path="/:service/enter-passcode" component={Passcode} />
-        {/* end of passcode routes */}
 
         {/* success route */}
         <Route exact path="/:service/success" component={SuccessPage} />
-        {/* end of success routes */}
+
 
         <Route component={NotFound} />
 
