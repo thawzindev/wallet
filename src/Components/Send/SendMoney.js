@@ -53,7 +53,7 @@ const SendMoney = () => {
                                 
                             </span>
 
-                            <Link to="/send/confirm" className="btn btn-dark mt-5 text-white" style={{width: "100%"}}>Next</Link>
+                            <Link to="/send/enter-amount" className="btn btn-dark mt-5 text-white" style={{width: "100%"}}>Next</Link>
 
                         </form>
                     </div>

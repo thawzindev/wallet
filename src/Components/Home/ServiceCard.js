@@ -23,10 +23,10 @@ const ServiceCard = () => {
 						</Link>
 					</Col>
                     <Col sm={4} xs={4} className="">
-						<a href="sent.html">
+						<Link to="/history">
 							<img className="serviceImg" src={history} alt="History" width="40%;"/><br/>
 							<span className="serviceName">History</span>
-						</a>
+						</Link>
 					</Col>
             
 				</Row>

@@ -7,6 +7,7 @@ import SuccessPage from './Components/Success/SuccessPage';
 import QrPage from './Components/Qr/QrPage';
 import SendMoney from './Components/Send/SendMoney';
 import NotFound from './Components/NotFound';
+import TransactionHistoryPage from './Components/History/TransactionHistoryPage';
 import './styles/style.css';
 import {
   BrowserRouter as Router,
@@ -15,6 +16,7 @@ import {
   withRouter,
   Redirect
 } from "react-router-dom";
+import EnterAmount from './Components/Send/EnterAmount';
 
 
 function App() {
@@ -26,15 +28,19 @@ function App() {
         {/* topup routes */}
         <Route exact path="/topup" component={Topup} />
 
-        {/* confirm route */}
-        <Route exact path="/topup/confirm" component={ConfirmPage} />
-
         {/* Qr routes */}
         <Route exact path="/my-qr" component={QrPage} />
 
         {/* Send Money routes */}
         <Route exact path="/send" component={SendMoney} />
+        <Route exact path="/send/enter-amount" component={EnterAmount} />
 
+
+        {/* history route */}
+        <Route exact path="/history" component={TransactionHistoryPage} />
+
+        {/* confirm route */}
+        <Route exact path="/:service/confirm" component={ConfirmPage} />
 
         {/* passcode route */}
         <Route exact path="/:service/enter-passcode" component={Passcode} />
