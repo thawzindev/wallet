@@ -7,8 +7,10 @@ const TransactionHistoryPage = () => {
     return (
         <>
             <Container fluid>
-                
-                <Header/>
+
+            <Header/>
+
+                <div className="content">
                 
                 {/* content start here */}
 
@@ -22,15 +24,20 @@ const TransactionHistoryPage = () => {
                         <HistoryCard/>
 
                         <HistoryCard/>
+
+                        <HistoryCard/>
+
+                        <HistoryCard/>
                     </Row>
             
                 {/* content end here */}
 
-
-                <BottomNavbar/>
+                </div>
 
             </Container>
-        </>
+
+            <BottomNavbar/>
+            </>
     )
 }
 

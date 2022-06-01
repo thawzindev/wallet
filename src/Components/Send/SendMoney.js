@@ -24,16 +24,18 @@ const SendMoney = () => {
     return ( 
         <>
             <Container fluid>
-                
-                <Header/>
+
+            <Header/>
+
+                <div className="content">
 
                 {/* content start here */}
 
                     <ScanQr />
 
-                    <p className="mt-5" style={{fontSize: "17px"}}>Scan QR (or) enter phone number manually to go next.</p>
+                    <p className="mt-2" style={{fontSize: "17px"}}>Scan QR (or) enter phone number manually to go next.</p>
 
-                    <div className="mt-5">
+                    <div className="mt-2">
                         <form onSubmit={handleOnSubmit}>
 
                             <span className="px-3" >
@@ -53,16 +55,18 @@ const SendMoney = () => {
                                 
                             </span>
 
-                            <Link to="/send/enter-amount" className="btn btn-dark mt-5 text-white" style={{width: "100%"}}>Next</Link>
+                            <Link to="/send/enter-amount" className="btn btn-dark mt-3 text-white" style={{width: "100%"}}>Next</Link>
 
                         </form>
                     </div>
 
                 {/* content end here */}
 
-                <BottomNavbar/>
+                </div>
 
             </Container>
+
+            <BottomNavbar/>
         </>
     );
 }

@@ -1,5 +1,5 @@
 import { Card, Col, Row } from "react-bootstrap";
-import send from "../../assets/icons/send_money.png";
+import send from "../../assets/icons/send.png";
 import receive from "../../assets/icons/receive_money.png";
 import history from "../../assets/icons/history.png";
 import { Link } from "react-router-dom";

@@ -97,6 +97,41 @@ body {
 	font-family: 'Cabin', sans-serif !important;
 }
 
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+    /* width: 400px; */
+    /* background-color: white; */
+    /* border: 1px solid black; */
+    /* text-align: center; */
+    border-collapse: collapse;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.header {
+    justify-self: flex-start;
+    /* background-color: #cdcdcd; */
+    padding: 8px;
+}
+
+.content {
+    flex: 1 1 auto;
+    height: 0px;
+    min-height: 500px;
+    
+    /* border: 1px solid black; */
+    padding: 8px;
+    overflow-y: scroll;
+}
+
+.navbar {
+    justify-self: flex-end;
+    /* background-color: #cdcdcd;
+    padding: 8px; */
+}
+
 #noti {
 	/*margin-left: 115px;*/
 	margin-top: 15px;
@@ -278,6 +313,10 @@ input[type=number] {
 .fit-image {
     width: 100%;
     object-fit: cover
+}
+
+.userInfo {
+    /* background-image: url('../assets/covers/profile-cover.png'); */
 }
 
 .userInfo p {

@@ -15,7 +15,7 @@ const MyQr = () => {
         }, []);
 
     return ( 
-        <div className="text-center" ref={qrCodeRef} style={{marginTop: "150px"}} />
+        <div className="text-center" ref={qrCodeRef} style={{marginTop: "20px"}} />
     );
 }
 

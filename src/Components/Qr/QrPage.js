@@ -10,19 +10,24 @@ const MyQrPage = () => {
         <>
             <Container fluid>
                 
-                <Header/>
+            <Header/>
+
+                <div className="content">
 
                     <MyQr/>
 
-                    <div className="text-center mt-5 mb-5">
+                    <div className="text-center mt-3">
                         <p>Scan QR Code (or) manually enter below phone number.</p>
                         <h5><b>09425025593</b></h5>
-                        <h6 className="pt-5"><button className="btn btn-danger">Save QR</button></h6>
+                        {/* <h6 className="pt-2"><button className="btn btn-info">Save QR</button></h6> */}
                     </div>
 
-                <BottomNavbar/>
+
+                </div>
 
             </Container>
+
+            <BottomNavbar/>
         </>
     );
 }

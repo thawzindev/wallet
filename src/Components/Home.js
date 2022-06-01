@@ -12,19 +12,24 @@ const Home = () => {
     return (
         <>
             <Container fluid>
+
+            <Header/>
+
+                <div className="content">
+
+                        <UserInfo/>
+
+                        <ServiceCard/>
+
+                        <MainServiceCard/>
+
+                        <Slider/>
                 
-                <Header/>
-                <UserInfo/>
-
-                <ServiceCard/>
-
-                <MainServiceCard/>
-
-                <Slider/>
-
-                <BottomNavbar/>
+                </div>
 
             </Container>
+
+            <BottomNavbar/>
         </>
     )
 }
